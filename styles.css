@@ -11,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-li :hover{
+li:hover, a:hover{
 	text-decoration: underline;
 }
 
@@ -48,7 +48,13 @@ nav ul li {
 	height:30px;
 	width: 30px;
 	background-position: -132px -38px;
+	opacity: 0.7;	
 }
+#menuApplis:hover{
+	opacity: 1;
+}
+
+
 #notifs{
 	background-image: url("image/googlepetitslogos.png");
 	height:30px;
@@ -57,6 +63,11 @@ nav ul li {
 	background-color: rgba(0,0,0,.55);
 	border-radius: 50%;
 }
+
+#notifs:hover{
+	background-color: black;
+}
+
 #profil{
 	height:30px;
 	width: 30px;
