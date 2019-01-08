@@ -1,0 +1,77 @@
+body{
+	min-height:100vh; 
+	display:flex; 
+	flex-direction:column; 
+	justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+	border: 1px dotted black;
+	margin :0px;
+}
+nav ul,footer ul{
+	display: flex;
+}
+
+
+/*-------------Barre Navigation---------------*/
+nav{
+	margin-top: :20px;
+}
+nav ul{
+	justify-content: flex-end;
+}
+nav ul li {
+	padding: 5px;
+}
+#menuApplis{
+	background-image: url("image/googlepetitslogos.png");
+	height:30px;
+	width: 30px;
+	background-position: -132px -38px;
+}
+#notifs{
+	background-image: url("image/googlepetitslogos.png");
+	height:30px;
+	width: 30px;
+	background-position: -190px -17px;
+	background-color: rgba(0,0,0,.55);
+	border-radius: 50%;
+}
+#profil{
+	height:30px;
+	width: 30px;
+	background-color: red;
+	border-radius: 50%;
+}
+footer li{
+	padding: 3px;
+}
+
+/*------------Google-------------------*/
+
+section {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section >*{
+	padding: 5px;
+}
+
+/*-------------Bas de page-----------------*/
+
+#footer2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
